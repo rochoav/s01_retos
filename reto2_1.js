@@ -1,5 +1,5 @@
-const path = require('path');
+const Console = require('Console');
 
-const dirname = path.extname('index.js');
+const cl = Console.clear();
 
-console.log(dirname);
+console.log(cl);
