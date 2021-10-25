@@ -1,5 +1,5 @@
 const dns = require('dns');
 
-const Dns = dns.lookup('google.com',(err,address,family));
+const Dns = dns.resolveNs(['google.com', 'yahoo.com']);
 
 console.log(Dns);
