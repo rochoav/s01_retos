@@ -1,7 +1,5 @@
-const crypto = require('crypto');
+const os = require('os');
 
-const palabra = 'secreta';
-const hash = crypto.update('I lov')
+const CPU = os.cpus();
 
-
-console.log(hash);
+console.log(CPU);
