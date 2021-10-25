@@ -1,7 +1,7 @@
 const crypto = require('crypto');
 
 const palabra = 'secreta';
-const hash = crypto.createHmac('sha256',palabra)
+const hash = crypto.update('I lov')
 
 
 console.log(hash);
