@@ -1,5 +1,7 @@
-const dns = require('dns');
+const crypto = require('crypto');
 
-const Dns = dns.resolveNs('google.com','yahoo.com');
+const palabra = 'secreta';
+const hash = crypto.createHmac('sha256',palabra)
 
-console.log(Dns);
+
+console.log(hash);
