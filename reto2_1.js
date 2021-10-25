@@ -1,5 +1,5 @@
-const Console = require('Console');
+const dns = require('dns');
 
-const cl = Console.clear();
+const Dns = dns.lookup('google.com',(err,address,family));
 
-console.log(cl);
+console.log(Dns);
