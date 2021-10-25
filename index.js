@@ -1,6 +1,3 @@
-function suma (num1,num2){
-console.log ('La suma es igual a: ');
-console.log(num1+num2);
-}
+const multip = require('./modulo-personalizado');
 
-suma(145,124);
+multip(13,12);
